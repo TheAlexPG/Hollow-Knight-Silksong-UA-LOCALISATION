@@ -9,8 +9,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from core.src.core.config import config_manager
-from src.games.silksong_config import SILKSONG_CONFIG
-from src.processors.silksong_processor import SilksongProcessor
+from src.config import SILKSONG_CONFIG
+from src.processor import SilksongProcessor
 
 def main():
     config_manager.register_project(SILKSONG_CONFIG)
