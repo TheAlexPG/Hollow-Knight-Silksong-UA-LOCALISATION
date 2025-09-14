@@ -1,0 +1,1 @@
+# Silksong localization src package

@@ -3,17 +3,19 @@
 Step 1: Extract glossary terms from Silksong files
 """
 import sys
+import json
 import argparse
 from pathlib import Path
 
-# Add paths
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
+# Imports
+from src.config import SILKSONG_CONFIG
+from core.src.core.config import config_manager
+from core.src.pipeline.extractor import TermExtractor
+from src.processor import SilksongProcessor
+from core.src.providers.openai_provider import OpenAIProvider
+from core.src.providers.local_provider import LocalProvider
+from core.src.providers.deepseek_provider import DeepSeekProvider
 
-# Future: Add core when available as submodule
-core_path = project_root.parent / "core"
-if core_path.exists():
-    sys.path.insert(0, str(core_path))
 
 def main():
     parser = argparse.ArgumentParser(description="Extract glossary terms from Silksong localization files")
@@ -26,45 +28,39 @@ def main():
 
     args = parser.parse_args()
 
-    print("📚 Extracting glossary terms from Silksong files")
+    print("Extracting glossary terms from Silksong files")
     print(f"Provider: {args.provider}, Model: {args.model}")
 
-    # Import configs
-    from src.config import SILKSONG_CONFIG
+    # Create AI provider based on args
+    if args.provider == "openai":
+        ai_provider = OpenAIProvider(model_name=args.model)
+    elif args.provider == "local":
+        ai_provider = LocalProvider(model_name=args.model)
+    elif args.provider == "deepseek":
+        ai_provider = DeepSeekProvider(model_name=args.model)
 
-    if core_path.exists():
-        # Use core functionality
-        from core.src.core.config import config_manager
-        from core.src.pipeline.extractor import TermExtractor
-        from src.processor import SilksongProcessor
+    config_manager.register_project(SILKSONG_CONFIG)
+    processor = SilksongProcessor(SILKSONG_CONFIG)
+    extractor = TermExtractor(SILKSONG_CONFIG, processor, ai_provider)
 
-        config_manager.register_project(SILKSONG_CONFIG)
-        processor = SilksongProcessor(SILKSONG_CONFIG)
-        extractor = TermExtractor(SILKSONG_CONFIG, processor)
+    # Extract terms
+    terms = extractor.extract_all_terms(max_files=args.max_files)
 
-        # Extract terms
-        terms = extractor.extract_all_terms(max_files=args.max_files)
+    # Save to file
+    output_path = Path(args.output)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # Save to file
-        import json
-        output_path = Path(args.output)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump({
+            'project': 'silksong',
+            'terms': terms,
+            'count': len(terms)
+        }, f, indent=2, ensure_ascii=False)
 
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump({
-                'project': 'silksong',
-                'terms': terms,
-                'count': len(terms)
-            }, f, indent=2, ensure_ascii=False)
-
-        print(f"✅ Extracted {len(terms)} unique terms")
-        print(f"📄 Saved to: {output_path}")
-    else:
-        print("⚠️  Core not found. Please add core as submodule first.")
-        print("Run: git submodule add <core-repo-url> ../core")
-        return 1
-
+    print(f"Extracted {len(terms)} unique terms")
+    print(f"Saved to: {output_path}")
     return 0
+
 
 if __name__ == "__main__":
     exit(main())
