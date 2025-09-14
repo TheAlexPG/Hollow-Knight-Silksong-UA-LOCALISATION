@@ -1,0 +1,12 @@
+# Silksong localization requirements
+# Core requirements will be inherited when core is added as submodule
+
+# Crypto for Silksong file encryption/decryption
+cryptography>=41.0.0
+
+# XML processing (already in core but listed for clarity)
+lxml>=4.9.0
+
+# For standalone usage without core
+openai>=1.0.0
+python-dotenv>=1.0.0
