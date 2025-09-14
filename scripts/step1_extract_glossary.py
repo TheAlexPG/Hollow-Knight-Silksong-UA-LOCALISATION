@@ -23,7 +23,7 @@ def main():
                        help="AI provider to use for term extraction")
     parser.add_argument("--model", default="gpt-4o", help="Model name to use")
     parser.add_argument("--max-files", type=int, help="Maximum number of files to process (for testing)")
-    parser.add_argument("--output", default="./data/glossaries/extracted_terms.json",
+    parser.add_argument("--output", default=None,
                        help="Output file for extracted terms")
 
     args = parser.parse_args()
@@ -46,18 +46,13 @@ def main():
     # Extract terms
     terms = extractor.extract_all_terms(max_files=args.max_files)
 
-    # Save to file
-    output_path = Path(args.output)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    # Use GlossaryManager to save
+    from core.src.utils.glossary import GlossaryManager
+    glossary_manager = GlossaryManager(SILKSONG_CONFIG)
 
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump({
-            'project': 'silksong',
-            'terms': terms,
-            'count': len(terms)
-        }, f, indent=2, ensure_ascii=False)
-
-    print(f"Extracted {len(terms)} unique terms")
+    # terms is already a dict with structure from TermExtractor
+    output_path = glossary_manager.save_extracted_terms(terms)
+    print(f"Extracted {terms.get('total_unique_terms', 0)} unique terms")
     print(f"Saved to: {output_path}")
     return 0
 

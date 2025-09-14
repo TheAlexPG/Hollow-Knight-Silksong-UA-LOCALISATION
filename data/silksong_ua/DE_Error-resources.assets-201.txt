@@ -1,7 +1,0 @@
-<entries>
-<entry name="OK">ОК</entry>
-<entry name="SAVE_FAILED_DESC">Будь ласка, спробуйте ще раз. Якщо проблема повторюється, відвідайте teamcherry.com.au/help для отримання додаткової інформації.</entry>
-<entry name="SAVE_CORRUPTED_TITLE">Неможливо прочитати файл збереження.</entry>
-<entry name="SAVE_CORRUPTED_DESC">Ви можете спробувати відновити попереднє автозбереження, використавши опцію нижче.</entry>
-<entry name="SAVE_FAILED_TITLE">Не вдалося записати збереження.</entry>
-</entries>

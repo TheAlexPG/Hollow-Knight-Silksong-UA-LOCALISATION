@@ -3,136 +3,67 @@
 Step 3: Translate game content using approved glossary
 """
 import sys
-import json
 import argparse
 from pathlib import Path
 
-# Add paths
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
+# Imports
+from src.config import SILKSONG_CONFIG
+from core.src.core.config import config_manager
+from core.src.pipeline.translator import Translator
+from core.src.providers.openai_provider import OpenAIProvider
+from core.src.providers.local_provider import LocalProvider
+from core.src.providers.deepseek_provider import DeepSeekProvider
+from src.processor import SilksongProcessor
 
-# Future: Add core when available as submodule
-core_path = project_root.parent / "core"
-if core_path.exists():
-    sys.path.insert(0, str(core_path))
 
 def main():
     parser = argparse.ArgumentParser(description="Translate Silksong game content")
-    parser.add_argument("--glossary", default="./data/glossaries/final_glossary.json",
-                       help="Path to approved glossary file")
     parser.add_argument("--provider", choices=["openai", "local", "deepseek"], default="openai",
                        help="AI provider to use")
     parser.add_argument("--model", default="gpt-4o", help="Model name to use")
-    parser.add_argument("--batch-size", type=int, default=10, help="Number of entries to translate at once")
+    parser.add_argument("--batch-size", type=int, default=5, help="Translation batch size")
     parser.add_argument("--max-files", type=int, help="Maximum number of files to process (for testing)")
-    parser.add_argument("--parallel", action="store_true", help="Use parallel processing")
-    parser.add_argument("--output-dir", default="./data/translations/ua",
-                       help="Output directory for translated files")
+    parser.add_argument("--parallel", action="store_true", default=True, help="Enable parallel processing")
+    parser.add_argument("--no-parallel", dest="parallel", action="store_false", help="Disable parallel processing")
 
     args = parser.parse_args()
 
-    print("🎮 Translating Silksong game content")
+    print("Translating Silksong game content")
     print(f"Provider: {args.provider}, Model: {args.model}")
+    print(f"Batch size: {args.batch_size}, Parallel: {args.parallel}")
 
-    # Check glossary
-    glossary_path = Path(args.glossary)
-    if not glossary_path.exists():
-        print(f"❌ Glossary not found: {glossary_path}")
-        print("Please complete steps 1 and 2 first, then create final_glossary.json")
-        return 1
+    # Setup
+    config_manager.register_project(SILKSONG_CONFIG)
+    config_manager.ensure_project_dirs(SILKSONG_CONFIG.name)
 
-    with open(glossary_path, 'r', encoding='utf-8') as f:
-        glossary_data = json.load(f)
-        glossary = glossary_data.get('translations', {})
+    print(f"Source: {SILKSONG_CONFIG.source_dir}")
+    print(f"Output: {SILKSONG_CONFIG.get_output_dir()}")
 
-    print(f"📚 Loaded glossary with {len(glossary)} terms")
+    # Create AI provider
+    if args.provider == "openai":
+        ai_provider = OpenAIProvider(model_name=args.model)
+    elif args.provider == "local":
+        ai_provider = LocalProvider(model_name=args.model)
+    elif args.provider == "deepseek":
+        ai_provider = DeepSeekProvider(model_name=args.model)
 
-    if core_path.exists():
-        # Use core functionality
-        from core.src.core.config import config_manager
-        from core.src.pipeline.translator import Translator
-        from core.src.providers.openai_provider import OpenAIProvider
-        from core.src.providers.deepseek_provider import DeepSeekProvider
-        from src.processor import SilksongProcessor
-        from src.config import SILKSONG_CONFIG
+    # Create processor and translator
+    processor = SilksongProcessor(SILKSONG_CONFIG)
+    translator = Translator(SILKSONG_CONFIG, processor, ai_provider, batch_size=args.batch_size)
 
-        # Update config with output directory
-        SILKSONG_CONFIG.output_dir = args.output_dir
+    # Load glossary
+    glossary = translator.load_glossary()
+    print(f"Loaded glossary with {len(glossary)} terms")
 
-        config_manager.register_project(SILKSONG_CONFIG)
+    # Translate files
+    print(f"Using {'parallel' if args.parallel else 'sequential'} translation...")
+    results = translator.translate_all_files(max_files=args.max_files, parallel=args.parallel)
 
-        # Select provider
-        if args.provider == "openai":
-            provider = OpenAIProvider(model=args.model)
-        elif args.provider == "deepseek":
-            provider = DeepSeekProvider(model=args.model)
-        else:
-            print(f"❌ Provider {args.provider} not yet implemented")
-            return 1
-
-        # Initialize processor and translator
-        processor = SilksongProcessor(SILKSONG_CONFIG)
-        translator = Translator(
-            config=SILKSONG_CONFIG,
-            processor=processor,
-            provider=provider,
-            glossary=glossary
-        )
-
-        # Get all source files
-        source_files = processor.get_all_source_files()
-        if args.max_files:
-            source_files = source_files[:args.max_files]
-
-        print(f"📁 Found {len(source_files)} files to translate")
-
-        # Translate files
-        output_dir = Path(args.output_dir)
-        output_dir.mkdir(parents=True, exist_ok=True)
-
-        for i, source_file in enumerate(source_files, 1):
-            print(f"\n[{i}/{len(source_files)}] Processing {source_file.name}...")
-
-            # Read source file
-            units = processor.read_file(source_file)
-            print(f"  📖 Loaded {len(units)} entries")
-
-            # Translate in batches
-            for j in range(0, len(units), args.batch_size):
-                batch = units[j:j + args.batch_size]
-                print(f"  🔄 Translating batch {j//args.batch_size + 1}...")
-
-                for unit in batch:
-                    # Check if term is in glossary
-                    if unit.original_text in glossary:
-                        unit.translated_text = glossary[unit.original_text]
-                    else:
-                        # Translate with context
-                        prompt = f"""Translate this game text from English to Ukrainian.
-Use this glossary for consistency: {json.dumps(glossary, ensure_ascii=False)}
-
-Text to translate: {unit.original_text}
-
-Return only the translation, nothing else."""
-
-                        unit.translated_text = provider.translate(prompt)
-
-            # Write translated file
-            output_file = output_dir / processor.get_output_filename(source_file.name)
-            processor.write_file(output_file, units)
-            print(f"  ✅ Saved to {output_file.name}")
-
-        print("\n" + "🎉" * 20)
-        print("TRANSLATION COMPLETED!")
-        print("🎉" * 20)
-        print(f"\n📁 All translations saved to: {output_dir}")
-        print("📦 Use scripts/encrypt.py to prepare files for the game")
-
-    else:
-        print("⚠️  Core not found. Please add core as submodule first.")
-        return 1
+    print("Translation completed!")
+    print(f"Translated files saved to: {SILKSONG_CONFIG.get_output_dir()}")
 
     return 0
+
 
 if __name__ == "__main__":
     exit(main())

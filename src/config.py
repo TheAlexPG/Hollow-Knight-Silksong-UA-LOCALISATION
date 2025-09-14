@@ -11,5 +11,5 @@ SILKSONG_CONFIG = ProjectConfig(
     name="silksong",
     source_lang="EN",
     target_lang_code="DE",  # Replace German with Ukrainian
-    source_dir="./data/source/SILKSONG_EN/._Decrypted"
+    source_dir="./data/silksong/source/SILKSONG_EN/._Decrypted"
 )

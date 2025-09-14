@@ -1,0 +1,114 @@
+Glossary for silksong - Review translations if needed
+============================================================
+
+ArchitectCrest       → Знак Архітектора
+Arsenal              → Збройорий
+BeastCrest           → Знак Звіра
+Beastling Call       → Заклик Істоти
+Bell Lacquer         → Бджолиний лак
+Bellhart             → Серце Дзвону
+Bellhome             → Дзвінний дім
+Bellvein             → Жила Дзвону
+Bellways             → Шляхи Дзвонів
+Bonva                → Бонова
+Bud                  → Брунька
+Chorus               → Хор
+Citadel              → Цитадель
+Citadel's Threefold song → Троякий спів Цитаделі
+Clawline             → Кіготь-лінія
+ClingGrip            → Міцний захват
+CloverDancers        → Дівочі Танці (від щавелю)
+CogMelody            → Шестірня-мелодія
+Cogwork Dancers      → Механічні Танцюристи
+Courier's Rasher     → Припас Вісника
+Cradle               → Колиска
+Crest                → Знак, Герб
+CrossStitch          → Хрестик-вишивка
+Deep Docks           → Глибокі Причали
+DeepMelody           → Глибока Мелодія
+DrifterCloak         → Плащ Мандрівника
+Eva                  → Ева
+Extricator           → Визволитель
+Fatal Resolve        → Смертельна Рішучість
+FayCloak             → Повитуха-плащ
+First Sinner         → Перший Грішник
+Flea Finder          → Шукач Блощиць
+Fleafriend           → Блощовий Друг
+Fragment             → Уламок, Шматок
+Garmond              → Гармонд
+Gleamlights          → Світлячки
+Gramophone           → Грамофон
+Grand Gourmand       → Великий Гурман
+Grand Mother Silk    → Материн Шовк
+Granted              → Надано, Даровано
+Heretic              → Єретик
+Hero's Call          → Заклик Героя
+Hunter's Memento     → Реліквія Мисливця
+Judge                → Суддя
+Karmelita            → Кармеліта
+Keen Hunter          → Гострий Мисливець
+Khann                → Ханн
+Lace                 → Кістяшок, мереживо
+Lacquer              → Лак
+Lamenter             → Плакун
+Last Dance           → Останній Танок
+Last Judge           → Останній Суддя
+Longpin              → Довгий Штифт
+Materium             → Матерія
+Melatolla            → Мелатолла
+Memento Shelf        → Поличка Пам'яті
+Needle Slash         → Удар Голкою
+Needolin             → Ніддолін
+Nuu                  → Нуу
+Nyleth               → Нілет
+OpenCradleLift       → Підйом з Відкритої Колиски
+PaleNails            → Бліді Нігті
+Pavo                 → Паво
+Personal Spa         → Особистий Спа
+Phantom              → Привид, Фантом
+Pharloom             → Фарлум
+Pharloom's Heart     → Серце Фарлума
+Pinmaster            → Майстер Штифтів
+Pinstress            → Пінстрес (особливо на одязі)
+Plinney              → Плінні
+Rasher               → Припас, Шматок М'яса
+ReaperCrest          → Знак Жатки
+Remembrance          → Спогад, Пам'ять
+Resident             → Мешканець, Житель
+Rosaries             → Розарії
+RuneRage             → Лють Рун
+Seed                 → Насінина
+Shakra               → Шакра
+ShamanCrest          → Знак Шамана
+Sharpdart            → Гострий Дротик
+Shellwood            → Деревина Мушлі
+Shellwood Pond       → Озеро Мушляного Лісу
+Silk                 → Шовк
+Silk Hearts          → Серця Шовку
+Silk Skill           → Шовкова Майстерність
+SilkSoar             → Шовковий Зліт
+Silkspear            → Шовкова Спис
+Skarrsinger Karmelita → Кармеліта, що співає про Скарр
+Soul Snare           → Духовна Пастка
+Spool Fragments      → Уламки Шпульки
+Steel Soul           → Сталева Душа
+SwiftStep            → Швидкий Крок
+Sylphsong            → Пісня Сильфи
+Thread Bind          → Нитковий В'язок
+ThreadStorm          → Ниткова Буря
+Tool                 → Інструмент, Засіб
+Trail's End          → Кінець Стежки
+VaultMelody          → Мелодія Сховища
+Ventrica Stations    → Вентрічні Станції
+WandererCrest        → Знак Мандрівника
+Weaver               → Ткач (Tkach)
+Weaver Queen         → Королева Ткачів (Koroleva Tkachiv)
+WhiteFlower          → Біла Квітка (Bila Kvitka) / Перлиноцвіт (Perylynotzvyt - more poetic, 'Pearl Blossom')
+WitchCrest           → Чарівний Пік (Charivnyi Pik) / Відмітня Відьми (Vidmitnia Vid'my - literally 'Mark of a Witch', more descriptive)
+Wyrm                 → Змій-Дракон (Zmiy-Drakon) / Першозмій (Pershozmiy - 'First Serpent', implies ancient power and importance)
+Yarnaby              → Нитеплетун (Nytepletun) / Прядильник (Pryadylnyk - more general term for someone who spins yarn, but could be adapted to a character name)
+
+
+Total terms: 106
+
+Glossary is ready for use in translation.
