@@ -1,0 +1,46 @@
+EN_Lore
+<entries>
+<entry name="MARROW_START_SIGN">Pilgrim&lt;br&gt;You are blessed to walk the foundations of Pharloom.&lt;br&gt;Humble yourself before the shells of those who gave their lives to hold our kingdom&#8217;s weight.</entry>
+<entry name="RED_MEMORY_ROOT2">&lt;hpage&gt;You are wrong, Lady...&lt;hpage&gt;I knew the wish, and the price to achieve it. And now, across these many ages, I have only come to know it better...&lt;hpage&gt;Strength... in mind, in care, in claw. Strength enough that I may live to see a world better than our own, or to craft a world as I desire. &lt;hpage&gt;That was the wish, of my mother, of my mentor, and of you...&lt;page&gt;...Indeed, spider... So much pain you must have passed to speak our hope so simply...&lt;page&gt;For her you become... who knows clear our desire, and has seen full the darkness beneath our house, I would show you the gift...</entry>
+<entry name="CORAL_CRUST_TAB_1">Coral sways,&lt;br&gt;Clear water flows,&lt;br&gt;Upon our river free of time.</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_03">...Arrived... At last...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_04">...Our Silk...</entry>
+<entry name="RED_MEMORY_ROOT3">Witness, the first light. The only means we possess to resist that void with which our family is forever linked.&lt;page&gt;Reach forth, child grown strong. Wrest it from this rememberance. Burn yourself free from our sad fate...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_05">...Our strength...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_06">...Our nature...</entry>
+<entry name="SILK_HEART_MEMORY_LACE_4">...One to wish our waking...</entry>
+<entry name="RED_MEMORY_BEAST">...Ignore them, daughter... their whispers...&lt;page&gt;...Greater, grander... Weaver, guardian, queen... Those are their desires... not your own. Certainly not mine...&lt;page&gt;...Only if you resist them, you might see it, another hope... beyond...&lt;page&gt;...But to recall these words, in time so far... Will you even remember me, child? Could you?...&lt;page&gt;...A mother... before the mask... before I lay forever in duty...</entry>
+<entry name="RED_MEMORY_WEAVERS">...Show us your craft, child...&lt;page&gt;...Show it splendid, as only we can teach...&lt;page&gt;...Prove yourself more Weaver than Wyrm...</entry>
+<entry name="CORAL_CRUST_TAB_2">At water&#8217;s source,&lt;br&gt;And coral&#8217;s heart,&lt;br&gt;Our lord born last to rule.</entry>
+<entry name="MEMORY_FIRSTWEAVER_2">...She called us daughters... Called us divine... She lied...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_01">...Child... Weaver... </entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_08">...One mind... One union...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_02">...Child... Spider...</entry>
+<entry name="RED_MEMORY_ROOT">...Alas... spider&#8217;s child...&lt;page&gt;...For our ways you will think us harsh... You will think us uncaring, unrepentant...&lt;page&gt;...And so we must seem, for such is the cost of our wish... </entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_02">...Their memory...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_03">...Bind their shells...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_01">...Their voices... Their song...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_06">...Raise them... Up...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_07">...To devote... Eternal...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_04">...Bind their souls...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_05">...Bind them all...</entry>
+<entry name="MEMORY_FIRSTWEAVER_1">...She called us daughters... She called us divine...</entry>
+<entry name="HEART_OUTRO_FLOWER">...We are life... We are growth... What world without us?...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_08">...Rise... Rise...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_FINAL">...Come, child... Witness our waking...</entry>
+<entry name="RED_MEMORY_HIVE">...Good... Better...&lt;page&gt;...Yet still you will need to be faster...&lt;page&gt;...In time, they will come for you... Those who fear your nature, and those seeking to claim it...&lt;page&gt;...To survive our world you must learn to sting... swift and sudden...</entry>
+<entry name="HEART_OUTRO_CORAL">...Our claws to crush... Our claws to rule... Our claws to save them all...</entry>
+<entry name="HEART_OUTRO_GREEN_PRINCE">...To dance... And love... And end... Together...</entry>
+<entry name="WILDS_START_TAB">Pilgrim&lt;br&gt;May these fields of flame sear away all impurity.&lt;br&gt; That you be granted ascendance to the verdant lands above.</entry>
+<entry name="SILK_HEART_MEMORY_LACE_1">...Better a child spun mad... than none...</entry>
+<entry name="MEMORY_NEEDOLIN_1">...Sisters... spiders... our song sustains...</entry>
+<entry name="SILK_HEART_MEMORY_LACE_2">...Better a child spun frail... than none...</entry>
+<entry name="SILK_HEART_MEMORY_LACE_3">...Better a child spun pure... than them...</entry>
+<entry name="SILK_HEART_MEMORY_WARDBOSS_FINAL">...They are ours... Bound forever...</entry>
+<entry name="MEMORY_NEEDOLIN_2">...For her light... eternal... our song sustains...</entry>
+<entry name="SILK_HEART_MEMORY_BELLBEAST_07">...We feel it...</entry>
+<entry name="MR_MUSH_RIDDLE_TAB">We speak the wish of the Master Herald,&lt;br&gt;he who signs an Age&#8217;s end.&lt;br&gt;&lt;page&gt;Under chapel fallen to the monarch&#8217;s might,&lt;br&gt;Over camp collapsed to the black thread plight,&lt;page&gt;Scorched field on edge, shells black and burned,&lt;br&gt;Up towers spinning, near the surgeon spurned,&lt;page&gt;Cage of one who raged against the silken lie,&lt;br&gt;Fell heart of frost, who soars on high,&lt;page&gt;Past cradle&#8217;s peak, last test of fitness,&lt;br&gt;That the age may pass, this shroom its witness.</entry>
+<entry name="HEART_OUTRO_ANT">...How we hunted... How we sang... My children, I saw you glorious...</entry>
+<entry name="SILK_HEART_MEMORY_LACE_FINAL">...From our Silk... A child born loyal...</entry>
+<entry name="MR_MUSH_TAB_TALK">&lt;hpage&gt;So, the Herald visits this land too...&lt;hpage&gt;If he is here, now, then great change or a savage end is inevitable. He would care to see nothing else...</entry>
+</entries>

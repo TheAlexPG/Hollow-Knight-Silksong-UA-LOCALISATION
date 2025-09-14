@@ -1,0 +1,26 @@
+EN_Fast Travel
+<entries>
+<entry name="STATION_NAME_SHELLWOOD">Shellwood</entry>
+<entry name="STATION_NAME_DOCKS">Deep Docks</entry>
+<entry name="STATION_NAME_SHADOW">Bilewater</entry>
+<entry name="TUBE_NAME_HANG">High Halls</entry>
+<entry name="TUBE_LIST_TITLE">VENTRICA</entry>
+<entry name="TUBE_NAME_SONG">Choral Chambers</entry>
+<entry name="TUBE_NAME_HUB">Terminus</entry>
+<entry name="STATION_NAME_BONEFOREST_EAST">Far Fields</entry>
+<entry name="STATION_NAME_WEAVE">Weavenest</entry>
+<entry name="MAP_LIST_TITLE">BELLWAYS</entry>
+<entry name="STATION_NAME_CITADEL">Grand Bellway</entry>
+<entry name="TUBE_NAME_CITYBELLWAY">Grand Bellway</entry>
+<entry name="STATION_NAME_BELLTOWN">Bellhart</entry>
+<entry name="STATION_NAME_BONETOWN">Bone Bottom</entry>
+<entry name="PAY_TOLL_MSG">Insert Rosaries?</entry>
+<entry name="TUBE_NAME_ENCLAVE">First Shrine</entry>
+<entry name="STATION_NAME_PEAK">The Slab</entry>
+<entry name="STATION_NAME_AQUEDUCT">Putrified Ducts</entry>
+<entry name="TUBE_NAME_UNDER">Underworks</entry>
+<entry name="STATION_NAME_BONE">The Marrow</entry>
+<entry name="STATION_NAME_CORAL_TOWER">Blasted Steps</entry>
+<entry name="STATION_NAME_GREYMOOR">Greymoor</entry>
+<entry name="TUBE_NAME_ARBORIUM">Memorium</entry>
+</entries>

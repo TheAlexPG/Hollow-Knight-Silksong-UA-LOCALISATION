@@ -1,0 +1,40 @@
+EN_AutoSaveNames
+<entries>
+<entry name="GAINED_MELODY_BEAST">LearntBeastMelody</entry>
+<entry name="SAVED_BELLHART">SavedBellhart</entry>
+<entry name="GAINED_BROLLY">GotDrifterCloak</entry>
+<entry name="GAINED_REAPER">GotReaperCrest</entry>
+<entry name="GAINED_MELODY_CONDUCTOR">LearntConductMelody</entry>
+<entry name="GAINED_DOUBLE_JUMP">GotFayCloak</entry>
+<entry name="ACT_3">Act3Start</entry>
+<entry name="ACT_2">Act2Start</entry>
+<entry name="ACT_1">Act1Start</entry>
+<entry name="GAINED_WHITE_FLOWER">GotWhiteFlower</entry>
+<entry name="SLAB_CAPTURED">Caged</entry>
+<entry name="GAINED_SILKNEEDLE">GotPaleNails</entry>
+<entry name="GAINED_SILKSPEAR">GotSilkspear</entry>
+<entry name="GAINED_BEAST">GotBeastCrest</entry>
+<entry name="GAINED_HEART_BLOOM">DefeatedNyleth</entry>
+<entry name="GAINED_MELODY_LIBRARIAN">LearntVaultMelody</entry>
+<entry name="GAINED_SPRINT">GotSwiftStep</entry>
+<entry name="GAINED_SUPER_JUMP">GotSilkSoar</entry>
+<entry name="GAINED_THREADSPHERE">GotThreadStorm</entry>
+<entry name="GAINED_CURSE">Cursed</entry>
+<entry name="GAINED_WANDERER">GotWandererCrest</entry>
+<entry name="GAINED_TOOMASTER">GotArchitectCrest</entry>
+<entry name="GAINED_HARPOON">GotClawline</entry>
+<entry name="GAINED_WALLJUMP">GotClingGrip</entry>
+<entry name="GAINED_MELODY_ARCHITECT">LearntCogMelody</entry>
+<entry name="GAINED_HEART_HUNTER">DefeatedKarmelita</entry>
+<entry name="GAINED_NEEDOLIN">GotNeedolin</entry>
+<entry name="GAINED_MELODY_DEEP">LearntDeepMelody</entry>
+<entry name="GAINED_HEART_CLOVER">DefeatedCloverDancers</entry>
+<entry name="GAINED_SILKCHARGE">GotSharpdart</entry>
+<entry name="GAINED_WITCH">GotWitchCrest</entry>
+<entry name="GAINED_SLYTHSONG">GotSylphsong</entry>
+<entry name="GAINED_SHAMAN">GotShamanCrest</entry>
+<entry name="UNLOCKED_MELODY_LIFT">OpenCradleLift</entry>
+<entry name="GAINED_RUNE_BOMB">GotRuneRage</entry>
+<entry name="GAINED_PARRY">GotCrossStitch</entry>
+<entry name="GAINED_HEART_CORAL">DefeatedKhann</entry>
+</entries>

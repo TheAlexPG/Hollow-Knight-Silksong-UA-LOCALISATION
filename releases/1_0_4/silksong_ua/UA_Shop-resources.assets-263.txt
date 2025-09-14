@@ -1,0 +1,12 @@
+DE_Shop
+<entries>
+<entry name="THUNTER_ITEM_BLASTEDLANDS">Підточені ступені</entry>
+<entry name="THUNTER_ITEM_FIELDLANDS">Краї полів</entry>
+<entry name="THUNTER_ITEM_MUCKLANDS">Жовчні краї</entry>
+<entry name="TITLE_COURIERS_QUESTS">Доставки</entry>
+<entry name="THUNTER_ITEM_PEAKLANDS">Гора Фей</entry>
+<entry name="THUNTER_ITEMS_TITLE">Відомості про бліх</entry>
+<entry name="THUNTER_ITEM_CITADEL">Citadel</entry>
+<entry name="THUNTER_ITEM_MARROWLANDS">Кістяні землі</entry>
+<entry name="THUNTER_ITEM_MIDLANDS">Серединні землі</entry>
+</entries>

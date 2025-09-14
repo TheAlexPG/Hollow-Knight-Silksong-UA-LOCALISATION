@@ -1,0 +1,12 @@
+EN_Shop
+<entries>
+<entry name="THUNTER_ITEM_BLASTEDLANDS">Blasted Steps</entry>
+<entry name="THUNTER_ITEM_FIELDLANDS">Fieldlands</entry>
+<entry name="THUNTER_ITEM_MUCKLANDS">Bilelands</entry>
+<entry name="TITLE_COURIERS_QUESTS">Deliveries</entry>
+<entry name="THUNTER_ITEM_PEAKLANDS">Mount Fay</entry>
+<entry name="THUNTER_ITEMS_TITLE">Flea Findings</entry>
+<entry name="THUNTER_ITEM_CITADEL">The Citadel</entry>
+<entry name="THUNTER_ITEM_MARROWLANDS">Bonelands</entry>
+<entry name="THUNTER_ITEM_MIDLANDS">Midlands</entry>
+</entries>

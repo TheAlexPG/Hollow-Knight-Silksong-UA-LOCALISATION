@@ -1,0 +1,11 @@
+<entries>
+<entry name="THUNTER_ITEM_BLASTEDLANDS">Випалені Сходи</entry>
+<entry name="THUNTER_ITEM_FIELDLANDS">Далекі Поля</entry>
+<entry name="THUNTER_ITEM_MUCKLANDS">Жовчні Землі</entry>
+<entry name="TITLE_COURIERS_QUESTS">Доставки</entry>
+<entry name="THUNTER_ITEM_PEAKLANDS">Гора Фей</entry>
+<entry name="THUNTER_ITEMS_TITLE">Блошині Знахідки</entry>
+<entry name="THUNTER_ITEM_CITADEL">Цитадель</entry>
+<entry name="THUNTER_ITEM_MARROWLANDS">Кістяні землі</entry>
+<entry name="THUNTER_ITEM_MIDLANDS">Середні землі</entry>
+</entries>

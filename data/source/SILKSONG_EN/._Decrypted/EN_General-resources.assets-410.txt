@@ -1,0 +1,20 @@
+EN_General
+<entries>
+<entry name="DEMO_END_MESSAGE">Thank you for playing the demo.</entry>
+<entry name="GAME_TITLE">Hollow Knight: Silksong</entry>
+<entry name="PROLOGUE_EXCERPT_02">They see your peace, woven of faith and toil,</entry>
+<entry name="ACT_3_SUPER">ACT 3</entry>
+<entry name="SAVE_WARNING">This game saves data automatically at certain points.&lt;br&gt;Please do not turn off the software while this symbol is displayed.</entry>
+<entry name="HORNET_NAME">Hornet</entry>
+<entry name="ACT_2_SUPER">ACT 2</entry>
+<entry name="CONTROL_PROMPT">use of a controller is highly recommended</entry>
+<entry name="ACT_2_NAME">CITADEL OF SONG</entry>
+<entry name="PROLOGUE_EXCERPT_AUTHOR">- From &#8216;Pharloom&#8217;s Folly&#8217; by the Conductor Romino</entry>
+<entry name="ACT_1_SUPER">ACT 1</entry>
+<entry name="PROLOGUE_EXCERPT_03">They forget your heart, bound in slumber and servitude,</entry>
+<entry name="PROLOGUE_EXCERPT_01">They see your beauty, so frail and fine,</entry>
+<entry name="ACT_1_NAME">PHARLOOM</entry>
+<entry name="ACT_3_NAME">ABYSS</entry>
+<entry name="PROLOGUE_EXCERPT_04">When you wake they shall see your truth, </entry>
+<entry name="PROLOGUE_EXCERPT_05">A beast&#8217;s nature bare to all.</entry>
+</entries>

@@ -1,0 +1,8 @@
+EN_Error
+<entries>
+<entry name="OK">OK</entry>
+<entry name="SAVE_FAILED_DESC">Please try again. If the issue persists, please visit teamcherry.com.au/help for more info.</entry>
+<entry name="SAVE_CORRUPTED_TITLE">Save file can not be read.</entry>
+<entry name="SAVE_CORRUPTED_DESC">You may try restoring a previous auto save using the option below.</entry>
+<entry name="SAVE_FAILED_TITLE">Save could not be written.</entry>
+</entries>

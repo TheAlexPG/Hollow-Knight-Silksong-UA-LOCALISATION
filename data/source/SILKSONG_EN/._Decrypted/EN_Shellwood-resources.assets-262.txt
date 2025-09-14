@@ -1,0 +1,26 @@
+EN_Shellwood
+<entries>
+<entry name="WOOD_WITCH_CURSE_ACCEPTED">&lt;hpage&gt;Very well. This final rite... what would you have me do?&lt;page&gt;The time... of birth is close. Now give... its shell. Host... the final rite.&lt;page&gt;The time of birth... is near.</entry>
+<entry name="SETH_GUARDIAN_TALK_REPEAT">You may rest here in this sacred place, but know, if you choose to step further, you shall see my weapon raised.</entry>
+<entry name="WOOD_WITCH_CURSE_OFFER">The time... the time of birth approaches. The bud cries. Yearning. The final rite may begin.&lt;page&gt;White shell. Red cloak. Bug strong and old. The time of birth is near. Aid now the final rite.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_COMPLETE_1">P... Pollip Hearts. Gathered. Gathered all. All that is needed, is given.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_DECLINE">&lt;hpage&gt;I hear your request, but I must decline. My travels will take me far beyond this wood.&lt;page&gt;Decline. No. Decline, not. The time of birth approaches. The first rite must begin.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_ACCEPT">&lt;hpage&gt;If you have knowledge or power to grant, I will aid you. These Pollip Hearts you desire... they can be found about the wood?&lt;page&gt;P... Pollip Hearts. Found in the wood. Yes, bug.&lt;page&gt;Seek out the purple blooms. Inside... the hearts.&lt;page&gt;The time of birth approaches. Pollip Hearts are needed. Bring them, bug, and power will be shared.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_COMPLETE_3">Bug. Cloaked by red. The time of rebirth approaches.&lt;page&gt;First rite is completed. Prepared. For the time of birth.&lt;page&gt;Take.... take. The refuse of the rite.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_KEEPITEMS">Rrrr... rite. The first rite must begin. Pollip Hearts are needed.</entry>
+<entry name="WOOD_WITCH_CURSE_DECLINED">&lt;hpage&gt;I am unable to help you. Not now. Perhaps another traveller will offer aid.&lt;page&gt;None... none come now. Once times, many bugs. Many. Now none. The final rite... the time of birth approaches...</entry>
+<entry name="WOOD_WITCH_MANDRAKE_ASK">Bug. Red cloak. Far-travelled. Bring it here... the bud.&lt;page&gt;It calls. It cries for the rite. Offer it.</entry>
+<entry name="SETH_GUARDIAN_DECLINE">Then go no further, that peace may remain between us.</entry>
+<entry name="WOOD_WITCH_MANDRAKE_ACCEPT">The bud... weak. New. It must be nourished.&lt;page&gt;Nnn... nourished. It will be nourished.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_ACCEPTED">Seek out the purple blooms. Inside... the precious hearts.&lt;page&gt;The time of birth approaches. Pollip Hearts are needed. Bring them, bug, and power will be shared.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_REOFFER">Bug. Only you are left. None more tread here. None.&lt;page&gt;For the rite. The Pollip Hearts. They are needed. Bring them here, for the rite.</entry>
+<entry name="SETH_GUARDIAN_OFFER">Challenge the guardian?</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_COMPLETE_2">The first rite. Rite of the pollip. The first rite can begin.</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_CANCOMPLETE">The precious hearts... Give them. For the time of birth, for the rite, they must bleed...</entry>
+<entry name="WOOD_WITCH_FLOWER_QUEST_OFFER">The.... the time of birth approaches. Now, the rite of the pollip.&lt;page&gt;Bug. Only you are left. None more tread here. None.&lt;page&gt;For the rite. The Pollip Hearts. They are needed. Bring them here, for the rite.</entry>
+<entry name="WOOD_WITCH_MEET">Shhhh... shell. White mask, red cloak.&lt;page&gt;Bug. A living bug.&lt;hpage&gt;A bug I am, at least in part, but you are something quite different. I apologise if I have roused you from some deep slumber.&lt;page&gt;Slumber. Long sleep. But now is the waking.&lt;page&gt;Growth. Time of birth. The time of birth approaches.&lt;page&gt;Heed, bug. The time of birth approaches.</entry>
+<entry name="WOOD_WITCH_MANDRAKE_DECLINE">Th... the bud. It must be offered. It calls for it... for the rite.</entry>
+<entry name="WOOD_WITCH_REPEAT">The time will come... Soon. The time of birth approaches.</entry>
+<entry name="SETH_GUARDIAN_MEET">Halt, stranger. I am charged forever to guard the sacred shrine beyond.&lt;page&gt;Any who wish to pass must cross their weapon with my own.</entry>
+<entry name="SETH_GUARDIAN_TALK1">You may remain here and rest, if you choose. I am no enemy of yours. Only if you try to step beyond will I raise my weapon against you.&lt;hpage&gt;Then tell me, warrior, of the shrine you guard. These caves on wood&#8217;s edge seem long forgotten.&lt;page&gt;Some things may be hidden, but never forgotten. The shrine remains to remember the wood&#8217;s first seed, her that once was and always is.&lt;page&gt;I am the last bound to protect it. Sadly, in that service, many have fallen to my blade.</entry>
+</entries>

@@ -1,0 +1,40 @@
+DE_AutoSaveNames
+<entries>
+<entry name="GAINED_MELODY_BEAST">Вивчено Звірячу Мелодію</entry>
+<entry name="SAVED_BELLHART">Врятовано Дзвонвілль</entry>
+<entry name="GAINED_BROLLY">Є Плащ Волоцюги</entry>
+<entry name="GAINED_REAPER">Є Знак Жнеця</entry>
+<entry name="GAINED_MELODY_CONDUCTOR">Вивчено Мелодію Провідника</entry>
+<entry name="GAINED_DOUBLE_JUMP">Є Плащ із Пуху</entry>
+<entry name="ACT_3">Початок Акту 3</entry>
+<entry name="ACT_2">Початок Акту 2</entry>
+<entry name="ACT_1">Початок Акту 1</entry>
+<entry name="GAINED_WHITE_FLOWER">Є Біла Квітка</entry>
+<entry name="SLAB_CAPTURED">Замкнено</entry>
+<entry name="GAINED_SILKNEEDLE">ЄСвітліКігтики</entry>
+<entry name="GAINED_SILKSPEAR">ЄШовковийСпис</entry>
+<entry name="GAINED_BEAST">ЄЗнакЗвіра</entry>
+<entry name="GAINED_HEART_BLOOM">ЄСерцеКвітки</entry>
+<entry name="GAINED_MELODY_LIBRARIAN">ВивчиМелодіюКатакомб</entry>
+<entry name="GAINED_SPRINT">ЄШвидкийКрок</entry>
+<entry name="GAINED_SUPER_JUMP">ЄОкриляючийШовк</entry>
+<entry name="GAINED_THREADSPHERE">ЄБуйствоНиток</entry>
+<entry name="GAINED_CURSE">ЗПрокляттям</entry>
+<entry name="GAINED_WANDERER">Є Герб Мандрівника</entry>
+<entry name="GAINED_TOOMASTER">Є Герб Архітектора</entry>
+<entry name="GAINED_HARPOON">Є Чіпка Нитка</entry>
+<entry name="GAINED_WALLJUMP">Є Чіпкий Захват</entry>
+<entry name="GAINED_MELODY_ARCHITECT">Вивчи Мелодію Автоматонів</entry>
+<entry name="GAINED_HEART_HUNTER">Є Серце Мисливця</entry>
+<entry name="GAINED_NEEDOLIN">Є Голкончель</entry>
+<entry name="GAINED_MELODY_DEEP">Вивчи Мелодію Глибин</entry>
+<entry name="GAINED_HEART_CLOVER">Є Зрощене Серце</entry>
+<entry name="GAINED_SILKCHARGE">Є Гострожало</entry>
+<entry name="GAINED_WITCH">Є Знак Відьми</entry>
+<entry name="GAINED_SLYTHSONG">Є Пісня Сильфіди</entry>
+<entry name="GAINED_SHAMAN">Є Знак Шамана</entry>
+<entry name="UNLOCKED_MELODY_LIFT">Відкрито Підйомник Колиски</entry>
+<entry name="GAINED_RUNE_BOMB">Є Лють Рун</entry>
+<entry name="GAINED_PARRY">Є Поперечний Стібок</entry>
+<entry name="GAINED_HEART_CORAL">Є Коралове Серце</entry>
+</entries>

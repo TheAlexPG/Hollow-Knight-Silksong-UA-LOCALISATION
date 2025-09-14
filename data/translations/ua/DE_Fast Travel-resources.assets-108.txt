@@ -1,0 +1,25 @@
+<entries>
+<entry name="STATION_NAME_SHELLWOOD">Черепашкове дерево</entry>
+<entry name="STATION_NAME_DOCKS">Глибокі Причали</entry>
+<entry name="STATION_NAME_SHADOW">Жовчна Вода</entry>
+<entry name="TUBE_NAME_HANG">Високі Зали</entry>
+<entry name="TUBE_LIST_TITLE">ВЕНТРИКА</entry>
+<entry name="TUBE_NAME_SONG">Хорові палати</entry>
+<entry name="TUBE_NAME_HUB">Термінус</entry>
+<entry name="STATION_NAME_BONEFOREST_EAST">Далекі Поля</entry>
+<entry name="STATION_NAME_WEAVE">Ткацьке Гніздо</entry>
+<entry name="MAP_LIST_TITLE">ДЗВІНОВІ ШЛЯХИ</entry>
+<entry name="STATION_NAME_CITADEL">Великий Дзвінний Шлях</entry>
+<entry name="TUBE_NAME_CITYBELLWAY">Великий Дзвінний Шлях</entry>
+<entry name="STATION_NAME_BELLTOWN">Беллхарт</entry>
+<entry name="STATION_NAME_BONETOWN">Кістяне Дно</entry>
+<entry name="PAY_TOLL_MSG">Вставити Розарії?</entry>
+<entry name="TUBE_NAME_ENCLAVE">Перше Святилище</entry>
+<entry name="STATION_NAME_PEAK">Плита</entry>
+<entry name="STATION_NAME_AQUEDUCT">Гнилі канали</entry>
+<entry name="TUBE_NAME_UNDER">Підроботи</entry>
+<entry name="STATION_NAME_BONE">Мозок</entry>
+<entry name="STATION_NAME_CORAL_TOWER">Випалені Сходи</entry>
+<entry name="STATION_NAME_GREYMOOR">Сірий Мох</entry>
+<entry name="TUBE_NAME_ARBORIUM">Меморіум</entry>
+</entries>

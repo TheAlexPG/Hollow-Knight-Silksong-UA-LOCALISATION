@@ -1,0 +1,19 @@
+<entries>
+<entry name="DEMO_END_MESSAGE">Дякуємо, що зіграли в демо.</entry>
+<entry name="GAME_TITLE">Порожній Лицар: Шовкова Пісня</entry>
+<entry name="PROLOGUE_EXCERPT_02">Вони бачать твій спокій, витканий з віри й праці,</entry>
+<entry name="ACT_3_SUPER">ДІЯ 3</entry>
+<entry name="SAVE_WARNING">Ця гра автоматично зберігає дані в певних точках.&lt;br&gt;Будь ласка, не вимикайте програмне забезпечення, поки цей символ відображається.</entry>
+<entry name="HORNET_NAME">Шершень</entry>
+<entry name="ACT_2_SUPER">АКТ 2</entry>
+<entry name="CONTROL_PROMPT">Наполегливо рекомендується використовувати контролер</entry>
+<entry name="ACT_2_NAME">ЦИТАДЕЛЬ СПІВУ</entry>
+<entry name="PROLOGUE_EXCERPT_AUTHOR">- З &amp;#8216;Безумство Фарлума&amp;#8217; Провідника Роміно</entry>
+<entry name="ACT_1_SUPER">АКТ 1</entry>
+<entry name="PROLOGUE_EXCERPT_03">Вони забувають твоє серце, скуте дрімотою й поневоленням,</entry>
+<entry name="PROLOGUE_EXCERPT_01">Вони бачать твою красу, таку крихку й ніжну,</entry>
+<entry name="ACT_1_NAME">ФАРЛУМ</entry>
+<entry name="ACT_3_NAME">БЕЗОДНЯ</entry>
+<entry name="PROLOGUE_EXCERPT_04">Коли ти прокинешся, вони побачать правду про тебе,</entry>
+<entry name="PROLOGUE_EXCERPT_05">Природа beast&amp;#8217;s відкрита для всіх.</entry>
+</entries>

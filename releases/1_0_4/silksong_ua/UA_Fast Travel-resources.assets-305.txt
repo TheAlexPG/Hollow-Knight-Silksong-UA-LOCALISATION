@@ -1,0 +1,26 @@
+DE_Fast Travel
+<entries>
+<entry name="STATION_NAME_SHELLWOOD">Панцирний ліс</entry>
+<entry name="STATION_NAME_DOCKS">Глибокі доки</entry>
+<entry name="STATION_NAME_SHADOW">Жовчноводдя</entry>
+<entry name="TUBE_NAME_HANG">Верхні палати</entry>
+<entry name="TUBE_LIST_TITLE">АРТЕРІО</entry>
+<entry name="TUBE_NAME_SONG">Хорові палати</entry>
+<entry name="TUBE_NAME_HUB">Термінус</entry>
+<entry name="STATION_NAME_BONEFOREST_EAST">Далекі поля</entry>
+<entry name="STATION_NAME_WEAVE">Дім Ткачів</entry>
+<entry name="MAP_LIST_TITLE">ДЗВІНКИЙ ШЛЯХ</entry>
+<entry name="STATION_NAME_CITADEL">Дзвінкий вузол</entry>
+<entry name="TUBE_NAME_CITYBELLWAY">Дзвінкий вузол</entry>
+<entry name="STATION_NAME_BELLTOWN">Дзвінвіль</entry>
+<entry name="STATION_NAME_BONETOWN">Кістяна Низина</entry>
+<entry name="PAY_TOLL_MSG">Вставити намистини?</entry>
+<entry name="TUBE_NAME_ENCLAVE">Перший вівтар</entry>
+<entry name="STATION_NAME_PEAK">Плита</entry>
+<entry name="STATION_NAME_AQUEDUCT">Гнилі стоки</entry>
+<entry name="TUBE_NAME_UNDER">Нижні цехи</entry>
+<entry name="STATION_NAME_BONE">Кістяк</entry>
+<entry name="STATION_NAME_CORAL_TOWER">Підточені ступені</entry>
+<entry name="STATION_NAME_GREYMOOR">Похмура трясовина</entry>
+<entry name="TUBE_NAME_ARBORIUM">Меморіум</entry>
+</entries>
