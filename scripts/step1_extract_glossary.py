@@ -34,8 +34,8 @@ def main():
 
     if core_path.exists():
         # Use core functionality
-        from src.core.config import config_manager
-        from src.pipeline.extractor import TermExtractor
+        from core.src.core.config import config_manager
+        from core.src.pipeline.extractor import TermExtractor
         from src.processor import SilksongProcessor
 
         config_manager.register_project(SILKSONG_CONFIG)

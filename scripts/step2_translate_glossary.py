@@ -47,9 +47,9 @@ def main():
 
     if core_path.exists():
         # Use core functionality
-        from src.core.config import config_manager
-        from src.providers.openai_provider import OpenAIProvider
-        from src.providers.deepseek_provider import DeepSeekProvider
+        from core.src.core.config import config_manager
+        from core.src.providers.openai_provider import OpenAIProvider
+        from core.src.providers.deepseek_provider import DeepSeekProvider
         from src.config import SILKSONG_CONFIG
 
         config_manager.register_project(SILKSONG_CONFIG)

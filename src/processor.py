@@ -9,10 +9,9 @@ from xml.sax.saxutils import escape, unescape
 # When core is added as submodule, these imports will work
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / "core"))
 
-from src.processors.base_file_processor import BaseFileProcessor
-from src.core.models import LineTranslationUnit, TranslationUnit, ProjectConfig
+from core.src.processors.base_file_processor import BaseFileProcessor
+from core.src.core.models import LineTranslationUnit, TranslationUnit, ProjectConfig
 
 
 class SilksongProcessor(BaseFileProcessor):

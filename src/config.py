@@ -8,7 +8,7 @@ from pathlib import Path
 core_path = Path(__file__).parent.parent.parent / "core"
 if core_path.exists():
     sys.path.insert(0, str(core_path))
-    from src.core.models import ProjectConfig
+    from core.src.core.models import ProjectConfig
 else:
     # Fallback for standalone mode
     from dataclasses import dataclass
