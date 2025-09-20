@@ -41,3 +41,4 @@ build/
 .coverage
 htmlcov/
 .pytest_cache/
+uabea-windows
