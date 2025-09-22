@@ -42,3 +42,6 @@ build/
 htmlcov/
 .pytest_cache/
 uabea-windows
+/data/silksong/source/temp/
+/data/silksong/source/temp/
+data/silksong/source/temp_Decrypted

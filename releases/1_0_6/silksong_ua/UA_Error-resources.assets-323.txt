@@ -1,0 +1,8 @@
+DE_Error
+<entries>
+<entry name="OK">Гаразд</entry>
+<entry name="SAVE_FAILED_DESC">Спробуйте ще раз. Якщо проблема збережеться, зайдіть на teamcherry.com.au/help для отримання додаткової інформації.</entry>
+<entry name="SAVE_CORRUPTED_TITLE">Не вдалося прочитати файл із збереженими даними.</entry>
+<entry name="SAVE_CORRUPTED_DESC">Ви можете спробувати відновити попереднє автозбереження, використовуючи команду внизу.</entry>
+<entry name="SAVE_FAILED_TITLE">Не вдалося записати збережені дані.</entry>
+</entries>

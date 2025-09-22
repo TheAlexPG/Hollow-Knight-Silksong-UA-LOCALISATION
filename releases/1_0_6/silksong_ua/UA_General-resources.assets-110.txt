@@ -1,0 +1,20 @@
+DE_General
+<entries>
+<entry name="DEMO_END_MESSAGE">Дякуємо вам за гру в демоверсію.</entry>
+<entry name="GAME_TITLE">Hollow Knight: Silksong</entry>
+<entry name="PROLOGUE_EXCERPT_02">Твій спокій, із віри й праці сплетений,</entry>
+<entry name="ACT_3_SUPER">АКТ 3</entry>
+<entry name="SAVE_WARNING">Збереження відбувається автоматично в певні моменти гри.&lt;br&gt; Не закривайте її, якщо бачите цей символ.</entry>
+<entry name="HORNET_NAME">Hornet</entry>
+<entry name="ACT_2_SUPER">АКТ 2</entry>
+<entry name="CONTROL_PROMPT">Наполегливо рекомендуємо використовувати контролер</entry>
+<entry name="ACT_2_NAME">CITADEL ПІСНІ</entry>
+<entry name="PROLOGUE_EXCERPT_AUTHOR">- Уривок із «Дурості Pharloom» &lt;br&gt;Провідника Роміно</entry>
+<entry name="ACT_1_SUPER">АКТ 1</entry>
+<entry name="PROLOGUE_EXCERPT_03">Та про серце твоє, в кайданах сну і рабства, забувають.</entry>
+<entry name="PROLOGUE_EXCERPT_01">Зрять вони твою красу, що така крихка й ніжна,</entry>
+<entry name="ACT_1_NAME">PHARLOOM</entry>
+<entry name="ACT_3_NAME">БЕЗОДНЯ</entry>
+<entry name="PROLOGUE_EXCERPT_04">Коли ж прокинешся, пізнають вони істину твою,</entry>
+<entry name="PROLOGUE_EXCERPT_05">І звіриний дух твій відкриється усякому.</entry>
+</entries>
